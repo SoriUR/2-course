@@ -1,0 +1,58 @@
+Circuit: * D:\SHema\Lab3\Draft2.asc
+
+WARNING: Less than two connections to node X1:NC_01.  This node is used by V:X1:2.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 7.87341e-005
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Heightened Def Con from 7.01e-009 +++++++++++++++++++++++++++++++++++++to 7.01e-009
+Heightened Def Con from 1.901e-008 +++++++++++++++++++++++++++++++++to 1.901e-008
+Heightened Def Con from 2.301e-008 +++++++++++++++++++++++++++++++++++to 2.301e-008
+Heightened Def Con from 2.701e-008 +++++++++++++++++++++++++++++++++to 2.701e-008
+Heightened Def Con from 3.101e-008 ++++++++++++++++++++++++++++++to 3.101e-008
+Heightened Def Con from 3.901e-008 +++++++++++++++++++++++++++++++++to 3.901e-008
+Heightened Def Con from 4.301e-008 +++++++++++++++++++++++++++++++++to 4.301e-008
+Heightened Def Con from 4.701e-008 +++++++++++++++++++++++++++++++++++to 4.701e-008
+Heightened Def Con from 6.301e-008 +++++++++++++++++++++++++++++++++to 6.301e-008
+
+Date: Fri May 20 14:56:18 2016
+Total elapsed time: 45.197 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 168630
+traniter = 167186
+tranpoints = 65303
+accept = 64853
+rejected = 761
+matrix size = 645
+fillins = 74
+solver = Normal
+Thread vector: 398.8/154.8[4] 66.4/24.8[4] 26.2/10.5[4] 9.0/4.0[4]  2592/500
+Matrix Compiler1: 108.57 KB object code size  35.1/17.1/[9.7]
+Matrix Compiler2: 82.68 KB object code size  20.2/17.8/[7.3]
+
+

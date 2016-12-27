@@ -1,0 +1,2 @@
+LIBRARY atanh_dll
+EXPORTS ATANH

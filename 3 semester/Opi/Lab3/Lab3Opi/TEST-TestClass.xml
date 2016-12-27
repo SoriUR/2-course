@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Tinki-Vinki" name="TestClass" skipped="0" tests="2" time="0.047" timestamp="2015-12-04T11:36:52">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="username" value="s192443" />
+    <property name="hamcrest.jar" value="./lib/hamcrest-junit-2.0.0.0.jar" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Windows 10" />
+    <property name="java" value="java" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes" />
+    <property name="test.build" value="./build/tests" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="D:\AA\aa" />
+    <property name="java.runtime.version" value="1.8.0_60-b27" />
+    <property name="user.name" value="Юра" />
+    <property name="Max" value="-Xmx4096m" />
+    <property name="user.language" value="ru" />
+    <property name="build" value="./build/main" />
+    <property name="test.report.dir" value="./reports" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\bin" />
+    <property name="ant.project.default-target" value="compile" />
+    <property name="ant.project.name" value="Lab3" />
+    <property name="java.version" value="1.8.0_60" />
+    <property name="user.timezone" value="" />
+    <property name="jarname" value="./Lab3.jar" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1251" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="src" value="./src" />
+    <property name="user.country" value="RU" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_60\jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="C:\Users\Юра\IdeaProjects\Lab3\build.xml" />
+    <property name="os.version" value="10.0" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.60-b23" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="D:\AA\aa\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="sun.stdout.encoding" value="cp866" />
+    <property name="user.script" value="" />
+    <property name="main.class" value="Task3" />
+    <property name="user.home" value="C:\Users\Юра" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files (x86)\VisualSVN\bin;C:\Program Files\TortoiseSVN\bin;D:\AA\aa\bin;;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="pwd" value="skl997" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner TestClass skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Юра\IdeaProjects\Lab3\TEST-TestClass.xml crashfile=C:\Users\Юра\IdeaProjects\Lab3\junitvmwatcher8251535085736537979.properties propsfile=C:\Users\Юра\IdeaProjects\Lab3\junit778638612094808999.properties" />
+    <property name="java.class.path" value="C:\Users\Юра\IdeaProjects\Lab3\lib\junit-4.10.jar;C:\Users\Юра\IdeaProjects\Lab3\lib\hamcrest-junit-2.0.0.0.jar;C:\Users\Юра\IdeaProjects\Lab3\Lab3.jar;C:\Users\Юра\IdeaProjects\Lab3\compile\test;D:\AA\aa\lib\junit-4.11.jar;D:\AA\aa\lib\ant-launcher.jar;D:\AA\aa\lib\ant.jar;D:\AA\aa\lib\ant-junit.jar;D:\AA\aa\lib\ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+    <property name="compile" value="./compile" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="junit.jar" value="./lib/junit-4.10.jar" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="java.io.tmpdir" value="C:\Users\6EDA~1\AppData\Local\Temp\" />
+    <property name="test.src" value="./srcTests" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\Users\Юра\IdeaProjects\Lab3" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="C:\Users\Юра\IdeaProjects\Lab3" />
+    <property name="clean.mask" value="*.class" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="test.compile" value="./compile/test" />
+    <property name="ant.core.lib" value="D:\AA\aa\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1251" />
+    <property name="sun.stderr.encoding" value="cp866" />
+    <property name="ant.file.Lab3" value="C:\Users\Юра\IdeaProjects\Lab3\build.xml" />
+    <property name="Min" value="-Xms1024m" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.file.type.Lab3" value="file" />
+    <property name="test.mask" value="**/*Test*.java" />
+    <property name="ant.project.invoked-targets" value="test" />
+  </properties>
+  <testcase classname="TestClass" name="testIsInKonturNotEneter" time="0.0" />
+  <testcase classname="TestClass" name="testIsInKonturEnter" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

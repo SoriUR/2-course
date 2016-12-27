@@ -1,0 +1,64 @@
+	<project name="Lab3" default="compile" basedir=".">
+	<property file="ant.properties"/>
+
+	  <target name="compile" >
+		<mkdir dir="${compile}"/>
+		<mkdir dir="${test.compile}"/>
+		<javac srcdir="${src}" destdir="${compile}" includeantruntime="false"/>
+		<javac srcdir="${test.src}" destdir="${test.compile}"  includeantruntime="false">
+			<classpath>
+					<pathelement location="${junit.jar}"/>
+					<pathelement location="${compile}"/>
+				</classpath>
+
+		</javac>
+	  </target>
+
+	  <target name="build" depends="compile">
+		<jar destfile="${jarname}" basedir="${compile}" update="true">
+			<manifest>
+				<attribute name="Main-Class" value="${main.class}"/>
+			</manifest>
+		</jar>
+	  </target>
+
+	  <target name="clean">
+		<delete dir="${compile}"/>
+		<delete dir="${test.compile}"/>
+	  </target>
+	  
+	  <target name="test" depends="build">
+		<junit printsummary="yes" haltonfailure="no" fork="true" failureproperty="testFailed">
+			<classpath>
+					<pathelement location="${junit.jar}"/>
+					<pathelement location="${hamcrest.jar}"/>
+					<pathelement location="${jarname}"/>
+					<pathelement location="${test.compile}"/>
+				</classpath>
+			<formatter type="xml"/>
+				<batchtest>
+					<fileset dir="${test.src}">
+						<include name="${test.mask}"/>
+					</fileset>
+				</batchtest>	
+		</junit>
+	  </target>
+		
+	  <target name="scp">
+		<scp file="${jarname}" trust="true" todir="${username}:${pwd}@helios.cs.ifmo.ru:/home/s192443/" port="2222"/>
+	  </target>
+	  
+	  <target name="env">
+	  <mkdir dir="${compile}"/>
+	  <javac srcdir="${src}" destdir="${compile}" includeantruntime="false" />
+		<jar destfile="${jarname}" basedir="${compile}" update="true">
+			<manifest>
+				<attribute name="Main-Class" value="${main.class}"/>
+			</manifest>
+		</jar>
+		<java fork="true" jar="${jarname}" jvm="${java}">
+			<jvmarg value="${Min}" />
+			<jvmarg value="${Max}" />
+		</java>
+	  </target>
+	</project>
